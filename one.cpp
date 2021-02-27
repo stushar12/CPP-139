@@ -15,6 +15,8 @@
   
 string longestCommonPrefix  (string arr[], int n) 
 { 
+    if(n==0)
+        return "-1";
     string prefix =  arr[0]; 
   
     for (int i=1; i<=n-1; i++) 
